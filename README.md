@@ -15,7 +15,7 @@ Sure enough, it's catching three different types of unicode issues:
 - glyph has two unicodes in one master, but just one unicode in another (i.e. /C has `0043` in one master, but `0043` _and_ `0049` in another)
 
 ```
-▶ python build/lib/unicode-test.py
+▶ python designspace_problems-unicode-test.py
 
 [[glyphs: different unicodes in glyph, glyphName: C unicodes: [73] (4, 10)],
 [glyphs: different unicodes in glyph, glyphName: B unicodes: [None, 66] (4, 10)],
